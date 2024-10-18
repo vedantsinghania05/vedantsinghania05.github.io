@@ -4,7 +4,8 @@
       "name": "Persona.fm",
       "description": "A full stack Next.js application that uses the Last.FM API to show users snapshots of their listening habits.",
       "link": "https://github.com/raspberri05/persona.fm",
-      "icons": "NextJS-Dark,TailwindCSS-Dark,Supabase-Dark",
+      "langs": "TypeScript,JavaScript,HTML,CSS,PostgreSQL-Dark",
+      "tools": "NextJS-Dark,TailwindCSS-Dark,Supabase-Dark,React-Dark,Figma-Dark,Markdown-Dark",
       "date": "Summer 2024 - Present",
       "custom": {
         "text": "View live site",
@@ -16,21 +17,16 @@
       "description": "A node.js CLI tool that helps developer quickly setup a new project with a suite of commands",
       "link": "https://github.com/raspberri05/quickdev",
       "date": "Fall 2024 - Present",
-      "icons": "NodeJS-Dark,Npm-Dark"
-        },
+      "langs": "TypeScript,JavaScript,Bash-Dark",
+      "tools": "NodeJS-Dark,Npm-Dark"
+    },
     {
       "name": "ChairSense",
       "description": "For wheelchair users, it can be hard to see what's behind the chair, especially when backing up or turning, which can be dangerous because there is a high potential to hit an object or person. The aim of this project is to solve that problem by creating a low-cost device that can detect obstacles and warn the wheelchair user so they don't hit objects or people.",
       "link": "https://github.com/raspberri05/chairSense",
-      "icons": "Arduino,CPP",
+      "langs": "CPP",
+      "tools": "Arduino",
       "date": "Fall 2021"
-    },
-    {
-      "name": "XKCD Bot",
-      "description": "A discord bot that allows you to get the latest XKCD comic directly in discord!",
-      "link": "https://github.com/raspberri05/xkcd-bot",
-      "icons": "Python-Dark,DiscordBots",
-      "date": "Summer 2024"
     }
   ]
 }

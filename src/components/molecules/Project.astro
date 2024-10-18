@@ -8,7 +8,8 @@ import {
   CardFooter,
 } from "@/components/ui/card";
 import LinkBtn from "@/components/atoms/LinkBtn.astro";
-const { name, description, href, ctext, clink, icons, date } = Astro.props;
+const { name, description, href, ctext, clink, tools, langs, date } =
+  Astro.props;
 ---
 
 <Card
@@ -23,11 +24,27 @@ const { name, description, href, ctext, clink, icons, date } = Astro.props;
     <br />
     <div class="flex gap-2">
       {
-        icons
+        langs
           .split(",")
-          .map((icon: string) => (
+          .map((lang: string) => (
             <Image
-              src={`https://raw.githubusercontent.com/tandpfun/skill-icons/refs/heads/main/icons/${icon}.svg`}
+              src={`https://raw.githubusercontent.com/tandpfun/skill-icons/refs/heads/main/icons/${lang}.svg`}
+              width="48"
+              height="48"
+              alt="Project Skills"
+              class="skills-icons"
+            />
+          ))
+      }
+    </div>
+    <br />
+    <div class="flex gap-2">
+      {
+        tools
+          .split(",")
+          .map((tool: string) => (
+            <Image
+              src={`https://raw.githubusercontent.com/tandpfun/skill-icons/refs/heads/main/icons/${tool}.svg`}
               width="48"
               height="48"
               alt="Project Skills"
