@@ -13,12 +13,12 @@
       }
     },
     {
-      "name": "QuickDev",
-      "description": "A node.js CLI tool that helps developer quickly setup a new project with a suite of commands",
-      "link": "https://github.com/raspberri05/quickdev",
+      "name": "QDev",
+      "description": "A Python CLI tool that processes a user's natural language input to generate various terminal commands that are helpful when setting up a project.",
+      "link": "https://github.com/raspberri05/qdev",
       "date": "Fall 2024 - Present",
-      "langs": "TypeScript,JavaScript,Bash-Dark",
-      "tools": "NodeJS-Dark,Npm-Dark"
+      "langs": "Python-Dark,Bash-Dark",
+      "tools": "FastAPI"
     },
     {
       "name": "ChairSense",
