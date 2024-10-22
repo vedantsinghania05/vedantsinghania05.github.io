@@ -11,7 +11,7 @@ import partytown from "@astrojs/partytown";
 
 // https://astro.build/config
 export default defineConfig({
-  site: "https://www.nayasinghania.com",
+  site: "https://nayasinghania.com",
   image: {
     domains: ["raw.githubusercontent.com"],
   },
