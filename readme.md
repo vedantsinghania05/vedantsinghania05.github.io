@@ -17,8 +17,6 @@ Now, you can edit the json files in src/content/data to add your own information
 
 Please open an issue [here](https://github.com/raspberri05/website/issues) if you are having any trouble with using this repository as a template and I can try my best to help resolve the issue.
 
-### Want new features in this template?
+## Want new features in this template?
 
 Please open an issue or pull request on the template repository (not your copy of the template) that explains the new feature in detail
-
-Don't forget to star this template repository so you don't miss out when new features are added to the template!
