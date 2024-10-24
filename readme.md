@@ -20,3 +20,5 @@ Please open an issue [here](https://github.com/raspberri05/website/issues) if yo
 ### Want new features in this template?
 
 Please open an issue or pull request on the template repository (not your copy of the template) that explains the new feature in detail
+
+Don't forget to star this template repository so you don't miss out when new features are added to the template!
