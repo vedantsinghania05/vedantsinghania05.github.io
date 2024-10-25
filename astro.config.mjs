@@ -9,8 +9,8 @@ import sitemap from "@astrojs/sitemap";
 
 import partytown from "@astrojs/partytown";
 
-// https://astro.build/config
 export default defineConfig({
+  // change the 'site' value to your site's domain
   site: "https://nayasinghania.com",
   image: {
     domains: ["raw.githubusercontent.com"],

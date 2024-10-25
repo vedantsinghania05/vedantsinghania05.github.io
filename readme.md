@@ -13,7 +13,7 @@ Want to create your own website from this template? Click `Use this template` to
 
 Once you've copied the code via the use template button and cloned your copy of the template locally, you can get started by running `npm install`. This will install the dependencies (you only need to do this once). Next, run `npm run dev` to start the dev server.
 
-Now, you can edit the json files in src/content/data to customize the template with your own information. Make sure to update each file in src/content/data accordingly
+Now, you can edit the json files in src/content/data to customize the template with your own information. Make sure to update each file in src/content/data accordingly. Make sure to update the site's domain in `astro.config.mjs` to your website's domain as well.
 
 Please open an issue [here](https://github.com/raspberri05/website/issues) if you are having any trouble with using this repository as a template and I can try my best to help resolve the issue.
 
