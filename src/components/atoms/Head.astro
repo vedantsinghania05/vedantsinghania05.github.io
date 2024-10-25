@@ -1,11 +1,12 @@
 ---
 const { title } = Astro.props;
+import { name } from "@/content/data/about.json";
 ---
 
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>{`Naya Singhania | ${title}`}</title>
+  <title>{`${name} | ${title}`}</title>
   <meta name="description" content="My personal website" />
   <link rel="icon" href="/favicon.jpg" />
   <link rel="sitemap" href="/sitemap-0.xml" />
