@@ -4,9 +4,6 @@
 
 This the code for my personal website.
 
-1. `npm run dev`
-2. Go to http://localhost:4321
-
 ## Using this as a template
 
 Want to create your own website from this template? Click `Use this template` to get started! This is an theme that has been verified by Astro (the framework used to built my website) as a theme. You can find the posting [here](https://astro.build/themes/details/minimal-personal-website-portfolio/).
