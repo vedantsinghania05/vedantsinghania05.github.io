@@ -14,7 +14,7 @@
     },
     {
       "name": "Fake News Detection",
-      "description": "A project where I am working on scraping truthfulness of comments and news relating to political features and analyzing the data to determine the truthfulness of the news. I am currently in the web scraping phase of the project, and will need large amounts of data prior to training the model. I plan to use Tensorflow for model training, althought this may change as my familiarity with machine learning increases.",
+      "description": "A project where I am working on scraping truthfulness of comments and news relating to political figures and analyzing the data to determine the truthfulness of the news. I am currently in the web scraping phase of the project, and will need large amounts of data prior to training the model. I plan to use Tensorflow for model training, althought this may change as my familiarity with machine learning increases.",
       "link": "https://github.com/raspberri05/fake-news-detection",
       "langs": "Python-Dark",
       "date": "Fall 2024 - Present"
