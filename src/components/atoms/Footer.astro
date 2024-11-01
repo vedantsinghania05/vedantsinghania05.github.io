@@ -5,7 +5,10 @@ import { social, copyright } from "@/content/data/footer.json";
 <hr />
 <br />
 <br />
-<footer class="text-center">
+<footer class="text-center dark:bg-zinc-800 bg-zinc-100">
+  <hr />
+  <br />
+  <br />
   <div class="flex justify-center gap-4">
     {
       social.map((social) => (
@@ -29,4 +32,6 @@ import { social, copyright } from "@/content/data/footer.json";
   </div>
   <br />
   <p>{`Copyright ${new Date().getFullYear()} ${copyright.holder}`}</p>
+  <br />
+  <br />
 </footer>

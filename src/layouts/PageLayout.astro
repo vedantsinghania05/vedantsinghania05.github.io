@@ -4,10 +4,10 @@ const { title, header } = Astro.props;
 ---
 
 <DefaultLayout title={title}>
-  <div class="pr-10 md:pl-10">
+  <div class="">
     <br />
     <br />
-    <h1>{header}</h1>
+    <h1 class="text-center md:text-left md:mx-12">{header}</h1>
     <br />
     <slot />
   </div>

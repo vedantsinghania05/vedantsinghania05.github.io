@@ -37,12 +37,20 @@ const { title } = Astro.props;
 <BaseLayout title={title}>
   <NavBar />
   <br />
-  <div class="container mx-4 md:mx-auto min-h-[79vh]">
+  <br />
+  <br />
+  <br />
+  <div
+    class="md:container mx-4 md:mx-auto min-h-[79vh] rounded-lg"
+    style={{
+      background:
+        "linear-gradient(45deg, #3b82f6 0%, #8b5cf6 50%, #ec4899 100%)",
+    }}
+  >
     <slot />
   </div>
   <div class="fixed bottom-4 right-4">
     <ModeToggle client:load />
   </div>
   <Footer />
-  <br />
 </BaseLayout>

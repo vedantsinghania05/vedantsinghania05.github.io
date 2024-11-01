@@ -13,14 +13,6 @@
       }
     },
     {
-      "name": "QDev",
-      "description": "A Python CLI tool that processes a user's natural language input to generate various terminal commands that are helpful when setting up a project.",
-      "link": "https://github.com/raspberri05/qdev",
-      "date": "Fall 2024 - Present",
-      "langs": "Python-Dark,Bash-Dark",
-      "tools": "FastAPI"
-    },
-    {
       "name": "ChairSense",
       "description": "For wheelchair users, it can be hard to see what's behind the chair, especially when backing up or turning, which can be dangerous because there is a high potential to hit an object or person. The aim of this project is to solve that problem by creating a low-cost device that can detect obstacles and warn the wheelchair user so they don't hit objects or people.",
       "link": "https://github.com/raspberri05/chairSense",
