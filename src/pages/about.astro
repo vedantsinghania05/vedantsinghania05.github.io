@@ -7,27 +7,26 @@ import favicon from "@/assets/favicon.jpg";
 ---
 
 <PageLayout title="About" header="About Me">
-  <div class="flex flex-col md:flex-row gap-6 items-center md:mx-12">
-    <div class="flex flex-col items-center animate-fade-in">
+  <div class="flex flex-col md:flex-row gap-6 items-center md:mx-12 fade">
+    <div class="flex flex-col items-center">
       <Image
         src={favicon}
         alt="Square portrait of Naya Singhania"
-        class="max-w-60 max-h-60 rounded-md animate-scale-in"
+        class="max-w-60 max-h-60 rounded-md"
       />
       <br />
       <LinkBtn
         text="View Resume"
         href={resume}
         target="_blank"
-        class="animate-slide-up animate-delay-500"
       />
     </div>
-    <div class="animate-fade-in animate-delay-300">
+    <div>
       {
         paragraphs.map((paragraph, index) => (
           <>
             <p
-              class={`mx-2 md:mx-12 animate-slide-up animate-delay-${(index + 2) * 200}`}
+              class="mx-2 md:mx-12"
             >
               {paragraph}
             </p>
@@ -38,73 +37,3 @@ import favicon from "@/assets/favicon.jpg";
     </div>
   </div>
 </PageLayout>
-
-<style>
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-
-  @keyframes slideUp {
-    from {
-      opacity: 0;
-      transform: translateY(20px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-
-  @keyframes scaleIn {
-    from {
-      opacity: 0;
-      transform: scale(0.8);
-    }
-    to {
-      opacity: 1;
-      transform: scale(1);
-    }
-  }
-
-  .animate-fade-in {
-    animation: fadeIn 1s ease-out forwards;
-  }
-
-  .animate-slide-up {
-    opacity: 0;
-    animation: slideUp 1s ease-out forwards;
-  }
-
-  .animate-scale-in {
-    animation: scaleIn 1s ease-out forwards;
-  }
-
-  .animate-delay-300 {
-    animation-delay: 300ms;
-  }
-
-  .animate-delay-500 {
-    animation-delay: 500ms;
-  }
-
-  .animate-delay-400 {
-    animation-delay: 400ms;
-  }
-
-  .animate-delay-600 {
-    animation-delay: 600ms;
-  }
-
-  .animate-delay-800 {
-    animation-delay: 800ms;
-  }
-
-  .animate-delay-1000 {
-    animation-delay: 1000ms;
-  }
-</style>

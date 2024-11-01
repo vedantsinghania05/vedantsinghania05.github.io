@@ -2,64 +2,22 @@
 import { Button } from "@/components/ui/button";
 import DefaultLayout from "@/layouts/DefaultLayout.astro";
 const { title, header, subheader, btntext, link } = Astro.props;
+
 ---
 
 <DefaultLayout title={title}>
   <div
-    class="flex flex-col h-[75vh] text-center justify-center items-center animate-fade-in"
+    class="flex flex-col h-[75vh] text-center justify-center items-center fade"
   >
-    <div class="text-[4rem] text-center animate-slide-up animate-delay-300">
+    <div class="text-[4rem] text-center">
       {header}
     </div>
-    <h1 class="animate-slide-up animate-delay-500">{subheader}</h1>
+    <h1 class="">{subheader}</h1>
     <br />
-    <a href={link} class="animate-slide-up animate-delay-700">
+    <a href={link}>
       <Button>
         <p class="text-xl">{btntext}</p>
       </Button>
     </a>
   </div>
 </DefaultLayout>
-
-<style>
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-
-  @keyframes slideUp {
-    from {
-      opacity: 0;
-      transform: translateY(20px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-
-  .animate-fade-in {
-    animation: fadeIn 1s ease-out forwards;
-  }
-
-  .animate-slide-up {
-    opacity: 0;
-    animation: slideUp 1s ease-out forwards;
-  }
-
-  .animate-delay-300 {
-    animation-delay: 300ms;
-  }
-
-  .animate-delay-500 {
-    animation-delay: 500ms;
-  }
-
-  .animate-delay-700 {
-    animation-delay: 700ms;
-  }
-</style>

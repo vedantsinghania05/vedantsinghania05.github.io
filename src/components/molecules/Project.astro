@@ -13,20 +13,20 @@ const { name, description, href, ctext, clink, tools, langs, date } =
 ---
 
 <Card
-  className="rounded-xl bg-white/30 dark:bg-gray-800/30 border-none shadow-xl mx-2 md:mx-12 animate-fade-in"
+  className="rounded-xl bg-white/30 dark:bg-gray-800/30 border-none shadow-xl mx-2 md:mx-12 fade"
 >
   <CardHeader>
-    <CardTitle className="text-gray-800 dark:text-gray-100 animate-slide-down"
+    <CardTitle className="text-gray-800 dark:text-gray-100"
       >{name}</CardTitle
     >
   </CardHeader>
   <CardContent>
     <p
-      class="text-gray-600 dark:text-gray-300 animate-fade-in animate-slide-down"
+      class="text-gray-600 dark:text-gray-300"
     >
       {description}
     </p>
-    <p class="text-sm pt-2 text-gray-500 dark:text-gray-400 animate-slide-down">
+    <p class="text-sm pt-2 text-gray-500 dark:text-gray-400">
       {date}
     </p>
     <br />
@@ -40,7 +40,7 @@ const { name, description, href, ctext, clink, tools, langs, date } =
               width="44"
               height="44"
               alt="Project Skills"
-              class="skills-icons animate-slide-down shadow-lg"
+              class="skills-icons"
             />
           ))
       }
@@ -56,13 +56,13 @@ const { name, description, href, ctext, clink, tools, langs, date } =
               width="44"
               height="44"
               alt="Project Skills"
-              class="skills-icons animate-slide-down shadow-lg"
+              class="skills-icons shadow-lg"
             />
           ))
       }
     </div>
   </CardContent>
-  <CardFooter className="animate-slide-down">
+  <CardFooter>
     <LinkBtn
       className="ml-[-10px] text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300"
       text="View on Github"
@@ -83,95 +83,3 @@ const { name, description, href, ctext, clink, tools, langs, date } =
     }
   </CardFooter>
 </Card>
-
-<style>
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-    }
-    to {
-      opacity: 1;
-    }
-  }
-
-  @keyframes slideDown {
-    from {
-      opacity: 0;
-      transform: translateY(-20px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-
-  @keyframes slideUp {
-    from {
-      opacity: 0;
-      transform: translateY(20px);
-    }
-    to {
-      opacity: 1;
-      transform: translateY(0);
-    }
-  }
-
-  @keyframes scaleIn {
-    from {
-      opacity: 0;
-      transform: scale(0.8);
-    }
-    to {
-      opacity: 1;
-      transform: scale(1);
-    }
-  }
-
-  .animate-fade-in {
-    animation: fadeIn 0.8s ease-out forwards;
-  }
-
-  .animate-slide-down {
-    animation: slideDown 0.8s ease-out forwards;
-  }
-
-  .animate-slide-up {
-    animation: slideUp 0.8s ease-out forwards;
-  }
-
-  .animate-scale-in {
-    animation: scaleIn 0.6s ease-out forwards;
-  }
-
-  .animate-delay-300 {
-    animation-delay: 300ms;
-  }
-
-  .animate-delay-400 {
-    animation-delay: 400ms;
-  }
-
-  .animate-delay-500 {
-    animation-delay: 500ms;
-  }
-
-  .animate-delay-600 {
-    animation-delay: 600ms;
-  }
-
-  .animate-delay-700 {
-    animation-delay: 700ms;
-  }
-
-  .animate-delay-800 {
-    animation-delay: 800ms;
-  }
-
-  .animate-delay-900 {
-    animation-delay: 900ms;
-  }
-
-  .animate-delay-1000 {
-    animation-delay: 1000ms;
-  }
-</style>
