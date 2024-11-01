@@ -40,7 +40,7 @@ const { name, description, href, ctext, clink, tools, langs, date } =
               width="44"
               height="44"
               alt="Project Skills"
-              class={`skills-icons animate-slide-down`}
+              class="skills-icons animate-slide-down shadow-lg"
             />
           ))
       }
@@ -48,7 +48,7 @@ const { name, description, href, ctext, clink, tools, langs, date } =
     <br />
     <div class="flex gap-2">
       {
-        tools
+        tools && tools
           .split(",")
           .map((tool: string, index: number) => (
             <Image
@@ -56,7 +56,7 @@ const { name, description, href, ctext, clink, tools, langs, date } =
               width="44"
               height="44"
               alt="Project Skills"
-              class={`skills-icons animate-slide-down`}
+              class="skills-icons animate-slide-down shadow-lg"
             />
           ))
       }
