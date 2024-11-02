@@ -1,10 +1,11 @@
 ---
 import { social, copyright } from "@/content/data/footer.json";
+import { Image } from "astro:assets";
 ---
 
 <br />
 <br />
-<footer class="text-center dark:bg-zinc-800 bg-zinc-100">
+<footer class="text-center dark:bg-zinc-800 bg-zinc-100 pb-6">
   <hr />
   <br />
   <br />
@@ -30,7 +31,24 @@ import { social, copyright } from "@/content/data/footer.json";
     }
   </div>
   <br />
-  <p>{`Copyright ${new Date().getFullYear()} ${copyright.holder}`}</p>
-  <br />
-  <br />
+  <div class="flex justify-center mb-2">
+    <p class="text-sm mt-1">Made with</p>
+    <Image
+      src="/astro-logo-light-gradient.svg"
+      alt="Astro Logo Light"
+      width="72"
+      height="64"
+      class="hidden dark:block"
+    />
+    <Image
+      src="/astro-logo-dark.svg"
+      alt="Astro Logo Dark"
+      width="72"
+      height="64"
+      class="block dark:hidden"
+    />
+  </div>
+  <p class="text-xs">
+    {`Copyright ${new Date().getFullYear()} ${copyright.holder}`}
+  </p>
 </footer>
