@@ -14,22 +14,12 @@ import favicon from "@/assets/favicon.jpg";
         alt="Square portrait of Naya Singhania"
         class="max-w-60 max-h-60 rounded-md"
       />
-      <br />
-      <LinkBtn
-        text="View Resume"
-        href={resume}
-        target="_blank"
-      />
     </div>
     <div>
       {
         paragraphs.map((paragraph, index) => (
           <>
-            <p
-              class="mx-2 md:mx-12"
-            >
-              {paragraph}
-            </p>
+            <p class="mx-2 md:mx-12">{paragraph}</p>
             <br />
           </>
         ))

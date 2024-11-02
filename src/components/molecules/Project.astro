@@ -16,17 +16,13 @@ const { name, description, href, ctext, clink, tools, langs, date } =
   className="rounded-xl bg-white/30 dark:bg-gray-800/30 border-none shadow-xl mx-2 md:mx-12 fade"
 >
   <CardHeader>
-    <CardTitle className="text-gray-800 dark:text-gray-100"
-      >{name}</CardTitle
-    >
+    <CardTitle className="text-gray-800 dark:text-gray-100">{name}</CardTitle>
   </CardHeader>
   <CardContent>
-    <p
-      class="text-gray-600 dark:text-gray-300"
-    >
+    <p class="text-gray-800 dark:text-gray-300">
       {description}
     </p>
-    <p class="text-sm pt-2 text-gray-500 dark:text-gray-400">
+    <p class="text-sm pt-2 text-gray-700 dark:text-gray-400">
       {date}
     </p>
     <br />
@@ -48,23 +44,24 @@ const { name, description, href, ctext, clink, tools, langs, date } =
     <br />
     <div class="flex gap-2">
       {
-        tools && tools
-          .split(",")
-          .map((tool: string, index: number) => (
-            <Image
-              src={`https://raw.githubusercontent.com/tandpfun/skill-icons/refs/heads/main/icons/${tool}.svg`}
-              width="44"
-              height="44"
-              alt="Project Skills"
-              class="skills-icons shadow-lg"
-            />
-          ))
+        tools &&
+          tools
+            .split(",")
+            .map((tool: string, index: number) => (
+              <Image
+                src={`https://raw.githubusercontent.com/tandpfun/skill-icons/refs/heads/main/icons/${tool}.svg`}
+                width="44"
+                height="44"
+                alt="Project Skills"
+                class="skills-icons shadow-lg"
+              />
+            ))
       }
     </div>
   </CardContent>
   <CardFooter>
     <LinkBtn
-      className="ml-[-10px] text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300"
+      className="ml-[-10px] text-black dark:text-white"
       text="View on Github"
       href={href}
       size="base"
@@ -77,7 +74,7 @@ const { name, description, href, ctext, clink, tools, langs, date } =
           href={clink}
           size="base"
           target="_blank"
-          className="text-blue-600 dark:text-blue-400 hover:text-blue-800 dark:hover:text-blue-300"
+          className="text-black dark:text-white"
         />
       )
     }
