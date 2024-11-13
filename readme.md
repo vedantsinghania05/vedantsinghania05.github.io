@@ -1,6 +1,4 @@
 # Minimal Personal Website + Portfolio Astro Theme
-![Screenshot 2024-11-13 124619](https://github.com/user-attachments/assets/b49baa36-a60f-4343-8a20-968a576fbb0f)
-![Screenshot 2024-11-13 124633](https://github.com/user-attachments/assets/a6700370-da07-49f3-9af7-6dd70b6a3b66)
 
 ## About
 
@@ -20,6 +18,19 @@ Make sure to delete `/.github/workflows/deploy.yml` if you don't want your site 
 
 Please open an issue [here](https://github.com/raspberri05/website/issues) if you are having any trouble with using this repository as a template and I can try my best to help resolve the issue.
 
-## Want new features in this template?
 
-Please open an issue that explains the feature request in detail or pull request adding the feature on the template repository (not your copy of the template)!
+## Images
+
+Here is what the dark version and light version of the template looks like (The template can be toggled between light or dark mode
+
+![2024-11-13 12_50_14-Naya Singhania _ Home](https://github.com/user-attachments/assets/452460b5-9204-463e-a2aa-bbe2410cb69c)
+![2024-11-13 12_49_52-Naya Singhania _ About](https://github.com/user-attachments/assets/58b75f25-7c7e-4d97-978b-79c602dfe91c)
+![2024-11-13 12_50_32-Naya Singhania _ Projects](https://github.com/user-attachments/assets/7138965b-d44a-4ead-bef4-973e3a10f2d0)
+
+![2024-11-13 12_50_47-Naya Singhania _ Home](https://github.com/user-attachments/assets/58ff8937-2203-498e-8af8-3a4c42a4b18d)
+![2024-11-13 12_50_54-Naya Singhania _ About](https://github.com/user-attachments/assets/36a6f6ed-b1e6-449d-8437-6e17a537222f)
+![2024-11-13 12_51_09-Naya Singhania _ Projects](https://github.com/user-attachments/assets/1bfbc564-fd6e-42c7-9f5b-e82e58ca01e5)
+
+## Want new features or improvements in this template
+
+Please open an issue that explains the change in detail or pull request making the feature on this template repository (not your copy of the template)!
