@@ -12,7 +12,7 @@ I deployed my site via Netlify, but there are many other free services where you
 
 Want to create your own website from this template? Click `Use this template` to get started! This is an theme that has been verified by Astro (the framework used to built my website) as a theme. You can find the posting [here](https://astro.build/themes/details/minimal-personal-website-portfolio/).
 
-Once you've copied the code via the use template button and cloned your copy of the template locally, you can get started by running `npm install`. This will install the dependencies (you only need to do this once). Next, run `npm run dev` to start the dev server.
+Once you've copied the code via the use template button and cloned your copy of the template locally, you can get started by running `npm install`. This will install the dependencies (you only need to do this once). Next, run `npm run dev` to start the dev server. Now, you can open the site locally and see the template with the example data in it!
 
 Now, you can edit the json files in src/content/data to customize the template with your own information. Make sure to update each file in src/content/data accordingly. Make sure to update the site's domain in `astro.config.mjs` to your website's domain as well.
 
@@ -23,7 +23,7 @@ Please open an issue [here](https://github.com/raspberri05/website/issues) if yo
 
 ## Images
 
-Here is what the dark version and light version of the template looks like (The template can be toggled between light or dark mode
+Here is what the dark version and light version of the template looks like (The template can be toggled between light or dark mode). These are just the defaults, but you can customize the theme as you see fit
 
 ![2024-11-13 12_50_14-Naya Singhania _ Home](https://github.com/user-attachments/assets/452460b5-9204-463e-a2aa-bbe2410cb69c)
 ![2024-11-13 12_49_52-Naya Singhania _ About](https://github.com/user-attachments/assets/58b75f25-7c7e-4d97-978b-79c602dfe91c)
