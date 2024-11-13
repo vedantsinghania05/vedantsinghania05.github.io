@@ -31,6 +31,6 @@ Here is what the dark version and light version of the template looks like (The 
 ![2024-11-13 12_50_54-Naya Singhania _ About](https://github.com/user-attachments/assets/36a6f6ed-b1e6-449d-8437-6e17a537222f)
 ![2024-11-13 12_51_09-Naya Singhania _ Projects](https://github.com/user-attachments/assets/1bfbc564-fd6e-42c7-9f5b-e82e58ca01e5)
 
-## Want new features or improvements in this template
+## Want new features or improvements in this template?
 
 Please open an issue that explains the change in detail or pull request making the feature on this template repository (not your copy of the template)!
