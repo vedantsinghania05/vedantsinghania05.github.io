@@ -6,6 +6,8 @@ This is the Minimal Personal Website + Portfolio template for Astro!
 
 This is the same template I use for my personal website! You can use it to build a personal website and portfolio that suits your needs! Read below to learn how to use this as a template for your own personal website!
 
+I deployed my site via Netlify, but there are many other free services where you can deploy your site. I reccommend Netlify's or Vercel's free tier, or Github Pages, but it is completely up to you!
+
 ## Using this as a template
 
 Want to create your own website from this template? Click `Use this template` to get started! This is an theme that has been verified by Astro (the framework used to built my website) as a theme. You can find the posting [here](https://astro.build/themes/details/minimal-personal-website-portfolio/).
