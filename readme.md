@@ -14,9 +14,9 @@ Once you've copied the code via the use template button and cloned your copy of 
 
 Now, you can edit the json files in src/content/data to customize the template with your own information. Make sure to update each file in src/content/data accordingly. Make sure to update the site's domain in `astro.config.mjs` to your website's domain as well.
 
-Make sure to delete `/.github/workflows/deploy.yml` if you don't want your site deployed to Github pages.
+While these instructions just give you basic information on how to use the template, feel free to change any of the code to fit your needs! This template was made using Astro and React, so taking a look at their documentation may help!
 
-Please open an issue [here](https://github.com/raspberri05/website/issues) if you are having any trouble with using this repository as a template and I can try my best to help resolve the issue.
+Please open an issue [here](https://github.com/raspberri05/website/issues) if you are having any trouble with using this repository as a template and I can help resolve the issue.
 
 
 ## Images
