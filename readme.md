@@ -15,6 +15,7 @@ I deployed my site via Netlify, but there are many other free services where you
 * Gradient card for page data
 * Footer links
 * Mobile-friendly (responsive)
+* Automatic sitemap generation upon build
 
 ### Pages
 * Home - This is the main page. The headline below the name has a typing animation
