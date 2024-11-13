@@ -1,10 +1,12 @@
 # Minimal Personal Website + Portfolio Astro Theme
+![Screenshot 2024-11-13 124619](https://github.com/user-attachments/assets/b49baa36-a60f-4343-8a20-968a576fbb0f)
+![Screenshot 2024-11-13 124633](https://github.com/user-attachments/assets/a6700370-da07-49f3-9af7-6dd70b6a3b66)
 
 ## About
 
 This is the Minimal Personal Website + Portfolio template for Astro!
 
-This is the same template I use for my personal website! You can use it to build a personal website and portfolio that suits your needs! Read below to learn how to use this as a tempale for your own personal website!
+This is the same template I use for my personal website! You can use it to build a personal website and portfolio that suits your needs! Read below to learn how to use this as a template for your own personal website!
 
 ## Using this as a template
 
