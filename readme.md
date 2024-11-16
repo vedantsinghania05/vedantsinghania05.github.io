@@ -37,6 +37,15 @@ While these instructions just give you basic information on how to use the templ
 
 Please open an issue [here](https://github.com/raspberri05/website/issues) if you are having any trouble with using this repository as a template and I can help resolve the issue.
 
+## Customizing or Removing the Background Gradient
+
+To change or remove the background gradient on this website:
+
+1. **Locate the Gradient Definition**: Check the primary CSS file (`src/styles.css`) or the Tailwind configuration file (`tailwind.config.js`).
+
+2. **Modify the Gradient**:
+    - **To Change**: Adjust gradient colors by editing the values in the CSS or Tailwind settings.
+    - **To Remove**: Comment out, delete the gradient, or replace it with a solid color.
 
 ## Images
 
