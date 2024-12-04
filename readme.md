@@ -2,7 +2,7 @@
 
 ## About
 
-This is the Minimal Personal Website + Portfolio template for Astro!
+This is the Minimal Personal Website + Portfolio template for the latest version of Astro (v5.x.x)
 
 This is the same template I use for my personal website! You can use it to build a personal website and portfolio that suits your needs! Read below to learn how to use this as a template for your own personal website!
 
